@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurent</title>
+</head>
+<body>
+    <header>
+        <a href ="#" class="logo-menu"> Mia'<span>P</span>izza</a>
+        <ul class="navbar-menu">
+            <li> <a href="index.html">Accueil</a></li>
+            <li> <a href="menu.html">A propos</a></li>
+            <li> <a href="menu.html">Menu</a></li>
+            <li> <a href="expert.html">Expert</a></li>
+            <li> <a href="#">Temoignage</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <a href="reservation.html" class="btn-reservation"> Reservation</a>
+        </ul>
+    </header>
+
+
+<section class="temoignage" id ="temoignage">
+    <div class="titre blanc">
+        <h2 class="titre-texte"> Que disent Nos <span>C</span>lients</h2>
+    </div>
+   <div class="contenu">
+       <div class="box">
+           <div class="imbox">
+               <img src="./images/t1.jpeg" alt=""> 
+           </div>
+           <div class ="text">
+               <p>Hier 28 Août à midi, j'ai passé un excellent moment dans votre restaurant. 
+                   Le service est impeccable, la terrasse agréable, le repas excellent ,
+                    les prix raisonnables. Je n'hésiterai pas à recommander votre établissement.</p>
+                    <h3>Béné</h3>
+           </div>
+       </div>
+       <div class="box">
+        <div class="imbox">
+            <img src="./images/t2.jpg" alt="">
+        </div>
+        <div class="text">
+            <p>  Cuisine fine alliant tradition et le soupçon d'originalité qui font que l'on se sent bien.
+                 Et on y est bien traité. Addition très raisonnable à comparer les restaux de tunisie dans 
+                 la même catégorie. Cadre de qualité bien décoré</p>
+            <h3>Lylybop</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+            <img src="./images/t3.jpg" alt="">
+        </div>
+        <div class="text">
+            <p> Restaurant trouvé un peu par hasard sur internet, mais le hasard fait
+                 quelquefois bien les choses un amuse bouche (tres bon) dans un repas
+                  de midi (formule entrée + plat), des plats suffisament copieux, originaux et tres bons.
+                  .</p>
+            <h3>Martine Seon</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+            <img src="./images/t4.jpg" alt="">
+        </div>
+        <div class="text">
+            <p>De très bons plats très bien cuisinés avec des produits de qualité du terroir.
+                 L'île flottante est unique. On fleurte avec le niveau gastronomique. 
+                 Un rapport qualité prix incroyable en comparaison avec ceux de la cote d'azur. 
+                 Un cadre sympa décontracté et lumineux. Le service est attentionné et professionnel.</p>
+            <h3>J-Pierre D</h3>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<footer class ="copyright">
+    <div >
+        <p>© 2021 Mia'<span>P</span>izza Tunisia. All Rights Reservedl</p>
+    </div>
+    </footer>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header =document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0 );
+        });
+    
+        </script>
+
+</body>
+</html>

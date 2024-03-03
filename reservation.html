@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurent</title>
+</head>
+<body>
+    <header>
+        <a href ="#" class="logo-menu"> Mia'<span>P</span>izza</a>
+        <ul class="navbar-menu">
+            <li> <a href="index.html">Accueil</a></li>
+            <li> <a href="menu.html">A propos</a></li>
+            <li> <a href="menu.html">Menu</a></li>
+            <li> <a href="expert.html">Expert</a></li>
+            <li> <a href="client.html">Temoignage</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <a href="#" class="btn-reservation"> Reservation</a>
+        </ul>
+    </header>
+
+<section class="reservation">
+    <div class="titre noir">
+        <h2 class="titre-text"><span>R</span>eservation</h2>
+    </div>
+<div class="contactform">
+   <div class="inputboite">
+       <input type="number" placeholder="Nombre de personne">
+    </div>
+    <div class="inputboite">
+        <input type="date" placeholder="Date">
+    </div>
+    <div class="inputboite">
+        <input type="time" placeholder="Heure">
+    </div>
+<div class="inputboite">
+    <input type="submit" value="envoyer">
+</div>
+
+</div>
+</section>
+
+
+<footer class ="copyright">
+    <div >
+        <p>© 2021 Mia'<span>P</span>izza Tunisia. All Rights Reserved !</p>
+    </div>
+    </footer>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header =document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0 );
+        });
+    
+        </script>
+    </body>
+    </html>

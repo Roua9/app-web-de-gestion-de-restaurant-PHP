@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurent</title>
+</head>
+<body>
+    <header>
+        <a href ="#" class="logo-menu"> Mia'<span>P</span>izza</a>
+        <ul class="navbar-menu">
+            <li> <a href="index.html">Accueil</a></li>
+            <li> <a href="#">A propos</a></li>
+            <li> <a href="#">Menu</a></li>
+            <li> <a href="expert.html">Expert</a></li>
+            <li> <a href="client.html">Temoignage</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <a href="reservation.html" class="btn-reservation"> Reservation</a>
+        </ul>
+    </header>
+
+<section class="menu" id ="menu">
+    <div class="titre">
+        <h2 class="titre-texte"> <span>M</span>enu</h2>
+    </div>
+   <div class="contenu">
+       <div class="box">
+           <div class="imbox">
+               <a href="margherita.html">
+               <img  src="./images/c3.jpg" alt=""> </a>
+           </div>
+           <div class ="text">
+               <h3>Margherita</h3>
+           </div>
+       </div>
+
+       <div class="box">
+        <div class="imbox">
+            <a href="ton.html">
+            <img src="./images/thon.jpg" alt=""></a>
+        </div>
+        <div class="text">
+            <h3>Thon</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+            <a href="toscane.html">
+            <img src="./images/toscane.jpg" alt=""></a>
+        </div>
+        <div class="text">
+            <h3>Toscane</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+            <a href="tropical.html">
+            <img src="./images/tropical.jpg" alt=""></a>
+        </div>
+        <div class="text">
+            <h3>Tropical Hawaïenne</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+            <a href="potatoes.html">
+            <img src="./images/calzone.jpg" alt=""></a>
+        </div>
+        <div class="text">
+            <h3>potatoes</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+            <a href="Pepperoni.html">
+            <img src="./images/c6.jpg" alt=""></a>
+        </div>
+        <div class="text">
+            <h3>Pepperoni Lovers</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+            <a href="carnivore.html">
+            <img src="./images/c7.jpg" alt=""></a>
+        </div>
+        <div class="text">
+            <h3>Le carnivore</h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+            <a href="salade.html">
+            <img src="./images/salad.jpg" alt=""></a>
+        </div>
+        <div class="text">
+            <h3>Caprese Salad</h3>
+        </div>
+    </div>
+</div>
+</div>
+
+</section>
+
+ <!--<footer class ="copyright">
+    <div >
+        <p>© 2021 Mia'<span>P</span>izza Tunisia. All Rights Reservedl</p>
+    </div>
+    </footer>-->
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header =document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0 );
+        });
+    
+        </script>
+
+</body>
+</html>

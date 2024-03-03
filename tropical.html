@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurent</title>
+</head>
+<body>
+    <header>
+        <a href ="#" class="logo-menu"> Mia'<span>P</span>izza</a>
+        <ul class="navbar-menu">
+            <li> <a href="index.html">Accueil</a></li>
+            <li> <a href="#">A propos</a></li>
+            <li> <a href="menu.html">Menu</a></li>
+            <li> <a href="expert.html">Expert</a></li>
+            <li> <a href="client.html">Temoignage</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <a href="reservation.html" class="btn-reservation"> Reservation</a>
+        </ul>
+    </header>
+
+   
+   <div class="contenu-mar">
+       <div class="box-mar">
+        <div class ="text-mar">
+            <h3>Tropical Hawaïenne</h3>
+        </div>
+           <div class="imbox-mar">
+               <img src="./images/tropical.jpg" alt=""> 
+           </div>
+           <div class ="description">
+               <p>MOZZARELLA, POULET GRILLÉ et TOMATES CERISES</p>
+               </div>
+               <div class="prix">
+                <p> Individuelle : <span>9.9dt </span>  Double: <span>19.9dt </span> Triple :<span>27.9dt</span></p>
+            </div>
+               
+           </div>
+       </div>
+       </div>
+
+       <footer class ="copyright">
+        <div >
+            <p>© 2021 Mia'<span>P</span>izza Tunisia. All Rights Reservedl</p>
+        </div>
+        </footer>
+        <script type="text/javascript">
+            window.addEventListener('scroll', function(){
+                const header =document.querySelector('header');
+                header.classList.toggle("sticky", window.scrollY > 0 );
+            });
+        
+            </script>
+    
+    </body>
+    </html>
